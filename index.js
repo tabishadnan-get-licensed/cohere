@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 // Modified to handle GET requests
-app.get("/api/chat", async (req, res) => {
+app.get("/api", async (req, res) => {
   try {
     const { input } = req.query;
 
